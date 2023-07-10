@@ -1,6 +1,6 @@
 # stream
 
-* [SICP 3章のストリーム]の一部をgoで実装したものです
+* [SICP 3章のストリーム](https://sicp.iijlab.net/fulltext/x350.html)の一部をgoで実装したものです
   * goである必然性はありません
   * Lispが読めない人でも比較的読みやすいと思ったからというのが理由の一つです
 
