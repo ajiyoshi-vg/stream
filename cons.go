@@ -20,13 +20,6 @@ func (x Cell[T, S]) Cdr() S {
 	return x.cdr.Force()
 }
 
-func Car[T, S any](x Cell[T, S]) T {
-	return x.Car()
-}
-func Cdr[T, S any](x Cell[T, S]) S {
-	return x.Cdr()
-}
-
 func (x Thunk[T]) Force() T {
 	return x()
 }
